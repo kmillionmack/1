@@ -14,7 +14,7 @@ const jsonData = {
 };
 
 // Define a route that returns JSON data
-app.get('/', (req, res) => {
+app.get('/url', (req, res) => {
   res.json(jsonData);
 });
 
